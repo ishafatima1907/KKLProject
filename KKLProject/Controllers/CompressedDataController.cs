@@ -66,6 +66,7 @@ namespace KKLProject.Controllers
             }
         }
 
+
         private byte[] Compress(string data)
         {
             using (var uncompressedStream = new MemoryStream(Encoding.UTF8.GetBytes(data)))
@@ -88,6 +89,8 @@ namespace KKLProject.Controllers
             if (compressedData == null)
             {
                 return NotFound("Data not found.");
+
+
             }
 
             // Decompress the stored data

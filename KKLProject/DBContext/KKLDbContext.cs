@@ -12,6 +12,7 @@ namespace KKLProject.DBContext
         }
 
         public DbSet<JsonData> JsonData { get; set; }
+
         public DbSet<CompressedData> CompressedData { get; set; }
     }
 }

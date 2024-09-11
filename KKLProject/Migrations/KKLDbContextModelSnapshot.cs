@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace KKLProject.Migrations
 {
-    [DbContext(typeof(KKLDbContext))]
+    [DbContext(typeof(KKLDbContext))] 
     partial class KKLDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

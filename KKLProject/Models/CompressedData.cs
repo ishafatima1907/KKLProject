@@ -6,3 +6,4 @@
         public byte[] CompressedJson { get; set; } // VARBINARY(MAX)
     }
 }
+          

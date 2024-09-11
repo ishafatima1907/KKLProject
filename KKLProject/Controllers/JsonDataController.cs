@@ -46,6 +46,7 @@ namespace KKLProject.Controllers
 
                 return Ok(new { Message = "JSON data saved successfully", Id = jsonData.Id });
             }
+
         }
     }
 
